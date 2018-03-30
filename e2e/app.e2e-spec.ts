@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ngmd03 App', () => {
+describe('ng5-material App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('ngmd03 App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
